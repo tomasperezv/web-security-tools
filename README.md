@@ -79,3 +79,37 @@ sudo make install
 # If you want to add passwords to w3af, you can do it at:
 # /usr/share/w3af/core/controllers/bruteforce
 ```
+
+###Reference###
+https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project
+
+http://html5sec.org/#137
+
+DOM Based XSS
+https://www.owasp.org/index.php/DOM_Based_XSS
+http://www.webappsec.org/projects/articles/071105.shtml
+
+xssed.com
+http://www.xssed.com/
+
+The Tangled Web - A guide to securing modern web applications
+http://www.amazon.com/The-Tangled-Web-Securing-Applications/dp/1593273886
+
+The Top Five Myths of Website Security
+https://www.whitehatsec.com/assets/WP5myths041807.pdf
+
+List of countries by number of Internet users
+http://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users
+
+Web application security 101
+http://www.applicure.com/downloads/documentsV4.20/Web_Application_Security_101.pdf
+
+Other Tools and libraries
+
+https://github.com/koto/mosquito
+https://github.com/koto/xsschef
+https://github.com/koto/xsschef
+https://github.com/laruence/php-taint
+https://github.com/padraic/xss/tree/master/examples
+https://code.google.com/p/ratproxy/
+https://code.google.com/p/skipfish/
