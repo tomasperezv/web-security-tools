@@ -4,6 +4,3 @@
 [submodule "php-taint"]
 	path = php-taint
 	url = git@github.com:laruence/php-taint.git
-[submodule "webscarab"]
-	path = webscarab
-	url = https://github.com/OWASP/OWASP-WebScarab
