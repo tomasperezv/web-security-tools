@@ -1,0 +1,8 @@
+XDEFINES= -DLIBOPENSSL -DHAVE_MATH_H
+XLIBS= -lssl -lcrypto
+XLIBPATHS=-L/usr/lib -L/usr/local/lib -L/lib -L/lib/i386-linux-gnu
+XIPATHS=
+PREFIX=/usr/local
+XHYDRA_SUPPORT=
+STRIP=strip
+
