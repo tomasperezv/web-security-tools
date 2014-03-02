@@ -1,0 +1,3 @@
+[submodule "webgoat"]
+	path = webgoat
+	url = https://github.com/OWASP/WebGoat
