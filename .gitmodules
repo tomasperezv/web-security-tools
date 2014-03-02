@@ -1,0 +1,6 @@
+[submodule "xsssniper"]
+	path = xsssniper
+	url = git@github.com:gbrindisi/xsssniper.git
+[submodule "php-taint"]
+	path = php-taint
+	url = git@github.com:laruence/php-taint.git
