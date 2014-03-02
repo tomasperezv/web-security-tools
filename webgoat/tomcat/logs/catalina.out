@@ -1,0 +1,583 @@
+Mar 02, 2014 12:04:15 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Mar 02, 2014 12:04:15 PM org.apache.coyote.http11.Http11BaseProtocol init
+SEVERE: Error initializing endpoint
+java.net.BindException: Address already in use:8080
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.initEndpoint(PoolTcpEndpoint.java:298)
+	at org.apache.coyote.http11.Http11BaseProtocol.init(Http11BaseProtocol.java:139)
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1017)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:267)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+
+Mar 02, 2014 12:04:15 PM org.apache.catalina.startup.Catalina load
+SEVERE: Catalina.start
+LifecycleException:  Protocol handler initialization failed: java.net.BindException: Address already in use:8080
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1019)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:267)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+
+Mar 02, 2014 12:04:15 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 857 ms
+Mar 02, 2014 12:04:15 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Mar 02, 2014 12:04:15 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+Mar 02, 2014 12:04:15 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Mar 02, 2014 12:04:16 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive webgoat.war
+Mar 02, 2014 12:04:17 PM org.apache.coyote.http11.Http11BaseProtocol start
+SEVERE: Error starting endpoint
+java.net.BindException: Address already in use:8080
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.initEndpoint(PoolTcpEndpoint.java:298)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.startEndpoint(PoolTcpEndpoint.java:313)
+	at org.apache.coyote.http11.Http11BaseProtocol.start(Http11BaseProtocol.java:151)
+	at org.apache.coyote.http11.Http11Protocol.start(Http11Protocol.java:76)
+	at org.apache.catalina.connector.Connector.start(Connector.java:1090)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:457)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+Mar 02, 2014 12:04:17 PM org.apache.catalina.startup.Catalina start
+SEVERE: Catalina.start: 
+LifecycleException:  service.getName(): "Catalina";  Protocol handler start failed: java.net.BindException: Address already in use:8080
+	at org.apache.catalina.connector.Connector.start(Connector.java:1097)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:457)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+Mar 02, 2014 12:04:17 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2257 ms
+Mar 02, 2014 12:04:17 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[8005]: 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:363)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:616)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:576)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+Mar 02, 2014 12:04:17 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:04:18 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Mar 02, 2014 12:04:19 PM org.apache.catalina.connector.MapperListener destroy
+WARNING: Error unregistering MBeanServerDelegate
+java.lang.NullPointerException
+	at org.apache.catalina.connector.MapperListener.destroy(MapperListener.java:173)
+	at org.apache.catalina.connector.Connector.stop(Connector.java:1138)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:519)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:645)
+
+Mar 02, 2014 12:04:19 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:04:19 PM org.apache.catalina.connector.Connector stop
+SEVERE: Coyote connector has not been started
+Mar 02, 2014 12:04:19 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+./tomcat/bin/catalina.sh: 278: ./tomcat/bin/catalina.sh: /..//bin/java: not found
+Mar 02, 2014 12:04:54 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Mar 02, 2014 12:04:54 PM org.apache.coyote.http11.Http11BaseProtocol init
+SEVERE: Error initializing endpoint
+java.net.BindException: Address already in use:8080
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.initEndpoint(PoolTcpEndpoint.java:298)
+	at org.apache.coyote.http11.Http11BaseProtocol.init(Http11BaseProtocol.java:139)
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1017)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:267)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+
+Mar 02, 2014 12:04:54 PM org.apache.catalina.startup.Catalina load
+SEVERE: Catalina.start
+LifecycleException:  Protocol handler initialization failed: java.net.BindException: Address already in use:8080
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1019)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:267)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+
+Mar 02, 2014 12:04:54 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 804 ms
+Mar 02, 2014 12:04:54 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Mar 02, 2014 12:04:54 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+Mar 02, 2014 12:04:54 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Mar 02, 2014 12:04:55 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive webgoat.war
+Mar 02, 2014 12:04:55 PM org.apache.coyote.http11.Http11BaseProtocol start
+SEVERE: Error starting endpoint
+java.net.BindException: Address already in use:8080
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.initEndpoint(PoolTcpEndpoint.java:298)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.startEndpoint(PoolTcpEndpoint.java:313)
+	at org.apache.coyote.http11.Http11BaseProtocol.start(Http11BaseProtocol.java:151)
+	at org.apache.coyote.http11.Http11Protocol.start(Http11Protocol.java:76)
+	at org.apache.catalina.connector.Connector.start(Connector.java:1090)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:457)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+Mar 02, 2014 12:04:55 PM org.apache.catalina.startup.Catalina start
+SEVERE: Catalina.start: 
+LifecycleException:  service.getName(): "Catalina";  Protocol handler start failed: java.net.BindException: Address already in use:8080
+	at org.apache.catalina.connector.Connector.start(Connector.java:1097)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:457)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+Mar 02, 2014 12:04:55 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1507 ms
+Mar 02, 2014 12:04:55 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[8005]: 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:363)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:616)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:576)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+Mar 02, 2014 12:04:55 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:04:56 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Mar 02, 2014 12:04:57 PM org.apache.catalina.connector.MapperListener destroy
+WARNING: Error unregistering MBeanServerDelegate
+java.lang.NullPointerException
+	at org.apache.catalina.connector.MapperListener.destroy(MapperListener.java:173)
+	at org.apache.catalina.connector.Connector.stop(Connector.java:1138)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:519)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:645)
+
+Mar 02, 2014 12:04:57 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:04:57 PM org.apache.catalina.connector.Connector stop
+SEVERE: Coyote connector has not been started
+Mar 02, 2014 12:04:57 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+Mar 02, 2014 12:05:24 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Mar 02, 2014 12:05:24 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:05:24 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 766 ms
+Mar 02, 2014 12:05:24 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Mar 02, 2014 12:05:24 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+Mar 02, 2014 12:05:24 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Mar 02, 2014 12:05:24 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive webgoat.war
+Mar 02, 2014 12:05:25 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:05:25 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Mar 02, 2014 12:05:25 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/20  config=null
+Mar 02, 2014 12:05:25 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Mar 02, 2014 12:05:25 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1740 ms
+Mar 02, 2014 12:06:31 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Mar 02, 2014 12:06:31 PM org.apache.coyote.http11.Http11BaseProtocol init
+SEVERE: Error initializing endpoint
+java.net.BindException: Address already in use:8080
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.initEndpoint(PoolTcpEndpoint.java:298)
+	at org.apache.coyote.http11.Http11BaseProtocol.init(Http11BaseProtocol.java:139)
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1017)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:267)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+
+Mar 02, 2014 12:06:31 PM org.apache.catalina.startup.Catalina load
+SEVERE: Catalina.start
+LifecycleException:  Protocol handler initialization failed: java.net.BindException: Address already in use:8080
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1019)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:267)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+
+Mar 02, 2014 12:06:31 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 754 ms
+Mar 02, 2014 12:06:31 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Mar 02, 2014 12:06:31 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+Mar 02, 2014 12:06:31 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Mar 02, 2014 12:06:32 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive webgoat.war
+Mar 02, 2014 12:06:32 PM org.apache.coyote.http11.Http11BaseProtocol start
+SEVERE: Error starting endpoint
+java.net.BindException: Address already in use:8080
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.initEndpoint(PoolTcpEndpoint.java:298)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.startEndpoint(PoolTcpEndpoint.java:313)
+	at org.apache.coyote.http11.Http11BaseProtocol.start(Http11BaseProtocol.java:151)
+	at org.apache.coyote.http11.Http11Protocol.start(Http11Protocol.java:76)
+	at org.apache.catalina.connector.Connector.start(Connector.java:1090)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:457)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+Mar 02, 2014 12:06:32 PM org.apache.catalina.startup.Catalina start
+SEVERE: Catalina.start: 
+LifecycleException:  service.getName(): "Catalina";  Protocol handler start failed: java.net.BindException: Address already in use:8080
+	at org.apache.catalina.connector.Connector.start(Connector.java:1097)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:457)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+Mar 02, 2014 12:06:32 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1445 ms
+Mar 02, 2014 12:06:32 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[8005]: 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:363)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:616)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:576)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+Mar 02, 2014 12:06:33 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:06:34 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Mar 02, 2014 12:06:34 PM org.apache.catalina.connector.MapperListener destroy
+WARNING: Error unregistering MBeanServerDelegate
+java.lang.NullPointerException
+	at org.apache.catalina.connector.MapperListener.destroy(MapperListener.java:173)
+	at org.apache.catalina.connector.Connector.stop(Connector.java:1138)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:519)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:645)
+
+Mar 02, 2014 12:06:34 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:06:34 PM org.apache.catalina.connector.Connector stop
+SEVERE: Coyote connector has not been started
+Mar 02, 2014 12:06:34 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+Mar 02, 2014 12:06:53 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Mar 02, 2014 12:06:53 PM org.apache.coyote.http11.Http11BaseProtocol init
+SEVERE: Error initializing endpoint
+java.net.BindException: Address already in use:8080
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.initEndpoint(PoolTcpEndpoint.java:298)
+	at org.apache.coyote.http11.Http11BaseProtocol.init(Http11BaseProtocol.java:139)
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1017)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:267)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+
+Mar 02, 2014 12:06:53 PM org.apache.catalina.startup.Catalina load
+SEVERE: Catalina.start
+LifecycleException:  Protocol handler initialization failed: java.net.BindException: Address already in use:8080
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1019)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:267)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+
+Mar 02, 2014 12:06:53 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 772 ms
+Mar 02, 2014 12:06:53 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Mar 02, 2014 12:06:53 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+Mar 02, 2014 12:06:53 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Mar 02, 2014 12:06:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive webgoat.war
+Mar 02, 2014 12:06:54 PM org.apache.coyote.http11.Http11BaseProtocol start
+SEVERE: Error starting endpoint
+java.net.BindException: Address already in use:8080
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.initEndpoint(PoolTcpEndpoint.java:298)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.startEndpoint(PoolTcpEndpoint.java:313)
+	at org.apache.coyote.http11.Http11BaseProtocol.start(Http11BaseProtocol.java:151)
+	at org.apache.coyote.http11.Http11Protocol.start(Http11Protocol.java:76)
+	at org.apache.catalina.connector.Connector.start(Connector.java:1090)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:457)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+Mar 02, 2014 12:06:54 PM org.apache.catalina.startup.Catalina start
+SEVERE: Catalina.start: 
+LifecycleException:  service.getName(): "Catalina";  Protocol handler start failed: java.net.BindException: Address already in use:8080
+	at org.apache.catalina.connector.Connector.start(Connector.java:1097)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:457)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+Mar 02, 2014 12:06:54 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1462 ms
+Mar 02, 2014 12:06:54 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[8005]: 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:363)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:616)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:576)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+Mar 02, 2014 12:06:54 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:06:55 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Mar 02, 2014 12:06:55 PM org.apache.catalina.connector.MapperListener destroy
+WARNING: Error unregistering MBeanServerDelegate
+java.lang.NullPointerException
+	at org.apache.catalina.connector.MapperListener.destroy(MapperListener.java:173)
+	at org.apache.catalina.connector.Connector.stop(Connector.java:1138)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:519)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:645)
+
+Mar 02, 2014 12:06:55 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:06:55 PM org.apache.catalina.connector.Connector stop
+SEVERE: Coyote connector has not been started
+Mar 02, 2014 12:06:55 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+Mar 02, 2014 12:07:11 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:07:12 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Mar 02, 2014 12:07:12 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:07:12 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+Mar 02, 2014 12:07:16 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Mar 02, 2014 12:07:16 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:07:16 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 762 ms
+Mar 02, 2014 12:07:17 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Mar 02, 2014 12:07:17 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+Mar 02, 2014 12:07:17 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Mar 02, 2014 12:07:17 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive webgoat.war
+Mar 02, 2014 12:07:18 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:07:18 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Mar 02, 2014 12:07:18 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=1/25  config=null
+Mar 02, 2014 12:07:18 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Mar 02, 2014 12:07:18 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1728 ms
+- WebGoat: Sun Mar 02 12:07:55 CET 2014 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.lessons.HowToWork | []
+Sun Mar 02 12:07:55 CET 2014 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.lessons.HowToWork | []
+- WebGoat: Sun Mar 02 12:07:57 CET 2014 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.lessons.HowToWork | [start=Start WebGoat]
+Sun Mar 02 12:07:57 CET 2014 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.lessons.HowToWork | [start=Start WebGoat]
+PATH: /home/tomasperezv/dev/web-security-tools/webgoat-2/WebGoat-5.3_RC1/tomcat/webapps/webgoat/database
+Database Connection String: jdbc:hsqldb:mem:${USER}
+Successful connection to database
+Error dropping user database
+Error dropping user_login table
+Error dropping pins table
+Error dropping user admin database
+Error dropping product database
+Error dropping message database
+Error: unable to drop employee table
+Error: unable to drop roles
+Error: unable to drop auth
+Error: unable to drop ownership
+Error dropping weather database
+Warning: unable to drop Transactions
+Error dropping user database
+Error dropping tan database
+Error dropping mfe_images table from database
+Error dropping salaries table
+Success: creating tables.
+Mar 02, 2014 12:09:42 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:09:43 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Mar 02, 2014 12:09:43 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:09:43 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+Mar 02, 2014 12:15:10 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Mar 02, 2014 12:15:10 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:15:10 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 760 ms
+Mar 02, 2014 12:15:10 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Mar 02, 2014 12:15:10 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+Mar 02, 2014 12:15:10 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Mar 02, 2014 12:15:11 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive webgoat.war
+Mar 02, 2014 12:15:12 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:15:12 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Mar 02, 2014 12:15:12 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/37  config=null
+Mar 02, 2014 12:15:12 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Mar 02, 2014 12:15:12 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1781 ms
+- WebGoat: Sun Mar 02 12:15:19 CET 2014 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.lessons.HowToWork | [start=Start WebGoat]
+Sun Mar 02 12:15:19 CET 2014 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.lessons.HowToWork | [start=Start WebGoat]
+Mar 02, 2014 12:15:26 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:15:27 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Mar 02, 2014 12:15:27 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:15:27 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
