@@ -34,10 +34,18 @@ sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java7-installer
 
-# For running web-goat is required java
+# For running web-goat is required java openjdk
 # sudo apt-get install openjdk-7-jre-headless
 # so switch in case is needed
 sudo update-alternatives --config java
+
+# xsssniper requires the module mechanize
+sudo apt-get install python-pip
+sudo pip install mechanize
+
+# Install and launch Nessus, you will need an activation code: http://www.tenable.com/products/nessus-home
+sudo dpkg -i web-security-tools/nessus/Nessus-5.2.5-debian6_amd64.deb
+sudo /etc/init.d/nessusd start
 
 # Launch webgoat server
 cd web-security-tools/webgoat
@@ -46,4 +54,24 @@ sh webgoat.sh start8080
 
 # Launch webscarab
 sh web-security-tools/webscarab/start.sh
+
+# w3af requires several modules and packages
+sudo apt-get instal w3af
+# build and install c-algorithms
+cd web-security-tools/c-algorithms && ./configure && ./make
+sudo make install
+sudo apt-get install graphviz python2.7-dev libsqlite3-dev libxslt1-dev python-gtksourceview2 libxml2-dev python-pdfminer python-webkit
+sudo pip install pybloomfilter
+sudo pip install --pre clamd PyGithub GitPython pybloomfiltermmap esmre nltk pdfminer futures scapy-real guess-language cluster msgpack-python python-ntlm xdot
+
+# Install thc-hydra
+cd ./web-security/thc-hydra
+./configure && make
+sudo make install
+
+# Launch w3af
+./web-security-tools/w3af/w3af_gui
+
+# If you want to add passwords to w3af, you can do it at:
+# /usr/share/w3af/core/controllers/bruteforce
 ```
