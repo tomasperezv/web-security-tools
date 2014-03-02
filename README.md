@@ -3,6 +3,9 @@ web-security-tools
 
 Scripts and resources used for my talk about web-security
 
+Don’t write your own security controls! 
+Reinventing the wheel when it comes to developing security controls for every web application or web service leads to wasted time and massive security holes.
+
 ###Content###
 
 #####WebGoat#####
