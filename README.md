@@ -104,6 +104,13 @@ http://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users
 Web application security 101
 http://www.applicure.com/downloads/documentsV4.20/Web_Application_Security_101.pdf
 
+Why phishing works
+http://www.cs.berkeley.edu/~tygar/papers/Phishing/why_phishing_works.pdf
+
+An Evaluation of Extended Validation and Picture-in-Picture Phishing Attacks
+http://www.adambarth.com/papers/2007/jackson-simon-tan-barth.pdf
+
+
 ####Other Tools and libraries####
 
 https://github.com/koto/mosquito
