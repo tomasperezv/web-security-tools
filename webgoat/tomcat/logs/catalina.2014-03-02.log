@@ -554,3 +554,27 @@ Mar 02, 2014 12:15:27 PM org.apache.coyote.http11.Http11BaseProtocol destroy
 INFO: Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
 Mar 02, 2014 12:15:27 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
 INFO: Failed shutdown of Apache Portable Runtime
+Mar 02, 2014 12:19:59 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Mar 02, 2014 12:19:59 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:19:59 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 757 ms
+Mar 02, 2014 12:19:59 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Mar 02, 2014 12:19:59 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+Mar 02, 2014 12:19:59 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Mar 02, 2014 12:20:00 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive webgoat.war
+Mar 02, 2014 12:20:00 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-127.0.0.1-8080
+Mar 02, 2014 12:20:01 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Mar 02, 2014 12:20:01 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/17  config=null
+Mar 02, 2014 12:20:01 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Mar 02, 2014 12:20:01 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1738 ms
