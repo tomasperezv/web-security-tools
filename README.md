@@ -35,8 +35,8 @@ sudo apt-get update
 sudo apt-get install oracle-java7-installer
 
 # php-taint requires php and pear
-sudo apt-get install php5-cli php-pear
-sudo pear install taint
+sudo apt-get install php5-cli php5-dev php-pear
+sudo pear install -f taint
 
 # For running web-goat is required java openjdk
 # sudo apt-get install openjdk-7-jre-headless
