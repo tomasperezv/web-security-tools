@@ -34,8 +34,9 @@ sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java7-installer
 
-# php-taint requires php
-sudo apt-get install php5-cli
+# php-taint requires php and pear
+sudo apt-get install php5-cli php-pear
+sudo pear install taint
 
 # For running web-goat is required java openjdk
 # sudo apt-get install openjdk-7-jre-headless
