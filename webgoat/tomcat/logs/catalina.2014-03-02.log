@@ -578,3 +578,1378 @@ Mar 02, 2014 12:20:01 PM org.apache.catalina.storeconfig.StoreLoader load
 INFO: Find registry server-registry.xml at classpath resource
 Mar 02, 2014 12:20:01 PM org.apache.catalina.startup.Catalina start
 INFO: Server startup in 1738 ms
+Mar 02, 2014 1:51:10 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 1:51:10 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:51:21 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+Mar 02, 2014 1:51:23 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.0' received
+Mar 02, 2014 1:51:23 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 1:51:23 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:51:24 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.0' received
+Mar 02, 2014 1:51:24 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 1:51:24 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:51:27 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'HELP' received
+Mar 02, 2014 1:51:27 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18501
+Mar 02, 2014 1:51:27 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:51:28 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 4609
+Mar 02, 2014 1:51:28 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 1:51:28 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 15423
+Mar 02, 2014 1:51:28 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 1:51:28 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:51:28 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 15423
+Mar 02, 2014 1:51:28 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:51:28 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 1:51:28 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:51:28 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 1:51:28 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:51:28 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '<?xml version="1.0"?>' received
+Mar 02, 2014 1:51:28 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '<?xml version="1.0"?>' received
+Mar 02, 2014 1:51:28 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 20304
+Mar 02, 2014 1:51:28 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:51:28 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'OPTIONS sip:127.0.0.1 SIP/2.0' received
+Mar 02, 2014 1:51:28 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+Mar 02, 2014 1:51:28 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '0' received
+Mar 02, 2014 1:51:33 PM org.apache.jk.common.ChannelSocket read
+INFO: Error reading data after 43bytes
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:51:33 PM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #47
+Mar 02, 2014 1:51:33 PM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1
+Mar 02, 2014 1:51:33 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 12300
+Mar 02, 2014 1:51:33 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 0
+Mar 02, 2014 1:51:38 PM org.apache.jk.common.ChannelSocket read
+INFO: Error reading data after 10bytes
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:51:38 PM org.apache.jk.common.ChannelSocket read
+INFO: Error reading data after 87bytes
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:51:38 PM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #513
+Mar 02, 2014 1:51:38 PM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #91
+Mar 02, 2014 1:51:38 PM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1
+Mar 02, 2014 1:51:38 PM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1
+Mar 02, 2014 1:52:30 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: read: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:402)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:616)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:576)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+Mar 02, 2014 1:52:30 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+Mar 02, 2014 1:52:30 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 1:52:30 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '606            425            1' received
+Mar 02, 2014 1:52:30 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 1:52:30 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:52:40 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 13872
+Mar 02, 2014 1:52:40 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:52:44 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 1:52:44 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 1:52:44 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:52:45 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 1:52:45 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:52:45 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 1:58:39 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 1:58:39 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:58:50 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+Mar 02, 2014 1:58:52 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.0' received
+Mar 02, 2014 1:58:52 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 1:58:52 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:58:53 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.0' received
+Mar 02, 2014 1:58:53 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 1:58:53 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:58:56 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'HELP' received
+Mar 02, 2014 1:58:56 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18501
+Mar 02, 2014 1:58:56 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:58:57 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 15423
+Mar 02, 2014 1:58:57 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:58:57 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 1:58:57 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 4609
+Mar 02, 2014 1:58:57 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 1:58:57 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 1:58:57 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 15423
+Mar 02, 2014 1:58:57 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:58:57 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 1:58:57 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:58:57 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 1:58:57 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:58:57 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '<?xml version="1.0"?>' received
+Mar 02, 2014 1:58:57 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '<?xml version="1.0"?>' received
+Mar 02, 2014 1:58:57 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 1:58:57 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:58:57 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+Mar 02, 2014 1:58:57 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 20304
+Mar 02, 2014 1:58:57 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:58:57 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'OPTIONS sip:localhost SIP/2.0' received
+Mar 02, 2014 1:59:00 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '0' received
+Mar 02, 2014 1:59:02 PM org.apache.jk.common.ChannelSocket read
+INFO: Error reading data after 43bytes
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:59:02 PM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #47
+Mar 02, 2014 1:59:02 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 0
+Mar 02, 2014 1:59:02 PM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1
+Mar 02, 2014 1:59:05 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 12300
+Mar 02, 2014 1:59:07 PM org.apache.jk.common.ChannelSocket read
+INFO: Error reading data after 87bytes
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:59:07 PM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #91
+Mar 02, 2014 1:59:07 PM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1
+Mar 02, 2014 1:59:10 PM org.apache.jk.common.ChannelSocket read
+INFO: Error reading data after 10bytes
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 1:59:10 PM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #513
+Mar 02, 2014 1:59:10 PM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1
+Mar 02, 2014 2:00:12 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: read: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:402)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:616)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:576)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+Mar 02, 2014 2:00:12 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+Mar 02, 2014 2:00:12 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 2:00:12 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '606            425            1' received
+Mar 02, 2014 2:00:12 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:00:12 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:00:22 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 13872
+Mar 02, 2014 2:00:22 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:00:36 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 2:00:36 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:00:36 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:00:37 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:00:37 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:00:37 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 2:06:18 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:06:18 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:06:29 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+Mar 02, 2014 2:06:31 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:06:31 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.0' received
+Mar 02, 2014 2:06:31 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:06:32 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.0' received
+Mar 02, 2014 2:06:32 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:06:32 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:06:35 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'HELP' received
+Mar 02, 2014 2:06:35 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18501
+Mar 02, 2014 2:06:35 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:06:36 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 15423
+Mar 02, 2014 2:06:36 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:06:36 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 4609
+Mar 02, 2014 2:06:36 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 2:06:36 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 2:06:36 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 2:06:36 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 15423
+Mar 02, 2014 2:06:36 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:06:36 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '<?xml version="1.0"?>' received
+Mar 02, 2014 2:06:36 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '<?xml version="1.0"?>' received
+Mar 02, 2014 2:06:36 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:06:36 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:06:36 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 20304
+Mar 02, 2014 2:06:36 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:06:36 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:06:36 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:06:36 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:06:36 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:06:36 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'OPTIONS sip:localhost SIP/2.0' received
+Mar 02, 2014 2:06:36 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+Mar 02, 2014 2:06:40 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '0' received
+Mar 02, 2014 2:06:41 PM org.apache.jk.common.ChannelSocket read
+INFO: Error reading data after 43bytes
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:06:41 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 0
+Mar 02, 2014 2:06:41 PM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #47
+Mar 02, 2014 2:06:41 PM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1
+Mar 02, 2014 2:06:45 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 12300
+Mar 02, 2014 2:06:46 PM org.apache.jk.common.ChannelSocket read
+INFO: Error reading data after 87bytes
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:06:46 PM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #91
+Mar 02, 2014 2:06:46 PM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1
+Mar 02, 2014 2:06:50 PM org.apache.jk.common.ChannelSocket read
+INFO: Error reading data after 10bytes
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:06:50 PM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #513
+Mar 02, 2014 2:06:50 PM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1
+Mar 02, 2014 2:07:50 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: read: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:402)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:616)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:576)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+Mar 02, 2014 2:07:50 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+Mar 02, 2014 2:07:50 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 2:07:50 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '606            425            1' received
+Mar 02, 2014 2:07:50 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:07:50 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:08:00 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 13872
+Mar 02, 2014 2:08:00 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:08:13 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 2:08:13 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:08:13 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:08:14 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:08:14 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:08:14 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 2:38:06 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:38:06 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:38:17 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+Mar 02, 2014 2:38:19 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.0' received
+Mar 02, 2014 2:38:19 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:38:19 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:38:20 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.0' received
+Mar 02, 2014 2:38:20 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:38:20 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:38:23 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'HELP' received
+Mar 02, 2014 2:38:23 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18501
+Mar 02, 2014 2:38:23 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:38:24 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 15423
+Mar 02, 2014 2:38:24 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 2:38:24 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 4609
+Mar 02, 2014 2:38:24 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:38:24 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 2:38:24 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 15423
+Mar 02, 2014 2:38:24 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 2:38:24 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:38:24 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '<?xml version="1.0"?>' received
+Mar 02, 2014 2:38:24 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '<?xml version="1.0"?>' received
+Mar 02, 2014 2:38:24 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:38:24 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:38:24 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:38:24 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:38:24 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:38:24 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 20304
+Mar 02, 2014 2:38:24 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:38:24 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:38:24 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'OPTIONS sip:localhost SIP/2.0' received
+Mar 02, 2014 2:38:24 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+Mar 02, 2014 2:38:24 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '0' received
+Mar 02, 2014 2:38:29 PM org.apache.jk.common.ChannelSocket read
+INFO: Error reading data after 43bytes
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:38:29 PM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #47
+Mar 02, 2014 2:38:29 PM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1
+Mar 02, 2014 2:38:29 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 0
+Mar 02, 2014 2:38:29 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 12300
+Mar 02, 2014 2:38:34 PM org.apache.jk.common.ChannelSocket read
+INFO: Error reading data after 10bytes
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:38:34 PM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #513
+Mar 02, 2014 2:38:34 PM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1
+Mar 02, 2014 2:38:34 PM org.apache.jk.common.ChannelSocket read
+INFO: Error reading data after 87bytes
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:38:34 PM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #91
+Mar 02, 2014 2:38:34 PM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1
+Mar 02, 2014 2:39:22 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: read: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:402)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:616)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:576)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+Mar 02, 2014 2:39:22 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received
+Mar 02, 2014 2:39:22 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 2:39:22 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '606            425            1' received
+Mar 02, 2014 2:39:22 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:39:22 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:39:32 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 13872
+Mar 02, 2014 2:39:32 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:39:48 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 2:39:48 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:39:48 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:39:49 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+Mar 02, 2014 2:39:49 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:327)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:627)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:584)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:692)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:897)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:39:49 PM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+Mar 02, 2014 2:41:02 PM org.apache.tomcat.util.http.Parameters processParameters
+WARNING: Parameters: Character decoding failed. Parameter skipped.
+java.io.CharConversionException: isHexDigit
+	at org.apache.tomcat.util.buf.UDecoder.convert(UDecoder.java:87)
+	at org.apache.tomcat.util.buf.UDecoder.convert(UDecoder.java:48)
+	at org.apache.tomcat.util.http.Parameters.urlDecode(Parameters.java:411)
+	at org.apache.tomcat.util.http.Parameters.processParameters(Parameters.java:393)
+	at org.apache.tomcat.util.http.Parameters.processParameters(Parameters.java:509)
+	at org.apache.tomcat.util.http.Parameters.handleQueryParameters(Parameters.java:266)
+	at org.apache.catalina.connector.Request.parseParameters(Request.java:2361)
+	at org.apache.catalina.connector.Request.getParameterValues(Request.java:1064)
+	at org.apache.catalina.connector.RequestFacade.getParameterValues(RequestFacade.java:394)
+	at org.owasp.webgoat.session.ParameterParser.getRawParameter(ParameterParser.java:615)
+	at org.owasp.webgoat.session.ParameterParser.getRawParameter(ParameterParser.java:597)
+	at org.owasp.webgoat.session.WebSession.update(WebSession.java:852)
+	at org.owasp.webgoat.HammerHead.updateSession(HammerHead.java:445)
+	at org.owasp.webgoat.HammerHead.doPost(HammerHead.java:136)
+	at org.owasp.webgoat.HammerHead.doGet(HammerHead.java:105)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:525)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:873)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:41:03 PM org.apache.tomcat.util.http.Parameters processParameters
+WARNING: Parameters: Character decoding failed. Parameter skipped.
+java.io.CharConversionException: isHexDigit
+	at org.apache.tomcat.util.buf.UDecoder.convert(UDecoder.java:87)
+	at org.apache.tomcat.util.buf.UDecoder.convert(UDecoder.java:48)
+	at org.apache.tomcat.util.http.Parameters.urlDecode(Parameters.java:411)
+	at org.apache.tomcat.util.http.Parameters.processParameters(Parameters.java:393)
+	at org.apache.tomcat.util.http.Parameters.processParameters(Parameters.java:344)
+	at org.apache.catalina.connector.Request.parseParameters(Request.java:2401)
+	at org.apache.catalina.connector.Request.getParameterValues(Request.java:1064)
+	at org.apache.catalina.connector.RequestFacade.getParameterValues(RequestFacade.java:394)
+	at org.owasp.webgoat.session.ParameterParser.getRawParameter(ParameterParser.java:615)
+	at org.owasp.webgoat.session.ParameterParser.getRawParameter(ParameterParser.java:597)
+	at org.owasp.webgoat.session.WebSession.update(WebSession.java:852)
+	at org.owasp.webgoat.HammerHead.updateSession(HammerHead.java:445)
+	at org.owasp.webgoat.HammerHead.doPost(HammerHead.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:525)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:873)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:41:03 PM org.apache.tomcat.util.http.Parameters processParameters
+WARNING: Parameters: Character decoding failed. Parameter skipped.
+java.io.CharConversionException: isHexDigit
+	at org.apache.tomcat.util.buf.UDecoder.convert(UDecoder.java:87)
+	at org.apache.tomcat.util.buf.UDecoder.convert(UDecoder.java:48)
+	at org.apache.tomcat.util.http.Parameters.urlDecode(Parameters.java:411)
+	at org.apache.tomcat.util.http.Parameters.processParameters(Parameters.java:393)
+	at org.apache.tomcat.util.http.Parameters.processParameters(Parameters.java:509)
+	at org.apache.tomcat.util.http.Parameters.handleQueryParameters(Parameters.java:266)
+	at org.apache.catalina.connector.Request.parseParameters(Request.java:2361)
+	at org.apache.catalina.connector.Request.getParameterValues(Request.java:1064)
+	at org.apache.catalina.connector.RequestFacade.getParameterValues(RequestFacade.java:394)
+	at org.owasp.webgoat.session.ParameterParser.getRawParameter(ParameterParser.java:615)
+	at org.owasp.webgoat.session.ParameterParser.getRawParameter(ParameterParser.java:597)
+	at org.owasp.webgoat.session.WebSession.update(WebSession.java:852)
+	at org.owasp.webgoat.HammerHead.updateSession(HammerHead.java:445)
+	at org.owasp.webgoat.HammerHead.doPost(HammerHead.java:136)
+	at org.owasp.webgoat.HammerHead.doGet(HammerHead.java:105)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:525)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:873)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:41:04 PM org.apache.tomcat.util.http.Parameters processParameters
+WARNING: Parameters: Character decoding failed. Parameter skipped.
+java.io.CharConversionException: isHexDigit
+	at org.apache.tomcat.util.buf.UDecoder.convert(UDecoder.java:87)
+	at org.apache.tomcat.util.buf.UDecoder.convert(UDecoder.java:48)
+	at org.apache.tomcat.util.http.Parameters.urlDecode(Parameters.java:411)
+	at org.apache.tomcat.util.http.Parameters.processParameters(Parameters.java:393)
+	at org.apache.tomcat.util.http.Parameters.processParameters(Parameters.java:344)
+	at org.apache.catalina.connector.Request.parseParameters(Request.java:2401)
+	at org.apache.catalina.connector.Request.getParameterValues(Request.java:1064)
+	at org.apache.catalina.connector.RequestFacade.getParameterValues(RequestFacade.java:394)
+	at org.owasp.webgoat.session.ParameterParser.getRawParameter(ParameterParser.java:615)
+	at org.owasp.webgoat.session.ParameterParser.getRawParameter(ParameterParser.java:597)
+	at org.owasp.webgoat.session.WebSession.update(WebSession.java:852)
+	at org.owasp.webgoat.HammerHead.updateSession(HammerHead.java:445)
+	at org.owasp.webgoat.HammerHead.doPost(HammerHead.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:525)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:873)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:41:04 PM org.apache.tomcat.util.http.Parameters processParameters
+WARNING: Parameters: Character decoding failed. Parameter skipped.
+java.io.CharConversionException: isHexDigit
+	at org.apache.tomcat.util.buf.UDecoder.convert(UDecoder.java:87)
+	at org.apache.tomcat.util.buf.UDecoder.convert(UDecoder.java:48)
+	at org.apache.tomcat.util.http.Parameters.urlDecode(Parameters.java:411)
+	at org.apache.tomcat.util.http.Parameters.processParameters(Parameters.java:393)
+	at org.apache.tomcat.util.http.Parameters.processParameters(Parameters.java:509)
+	at org.apache.tomcat.util.http.Parameters.handleQueryParameters(Parameters.java:266)
+	at org.apache.catalina.connector.Request.parseParameters(Request.java:2361)
+	at org.apache.catalina.connector.Request.getParameterValues(Request.java:1064)
+	at org.apache.catalina.connector.RequestFacade.getParameterValues(RequestFacade.java:394)
+	at org.owasp.webgoat.session.ParameterParser.getRawParameter(ParameterParser.java:615)
+	at org.owasp.webgoat.session.ParameterParser.getRawParameter(ParameterParser.java:597)
+	at org.owasp.webgoat.session.WebSession.update(WebSession.java:852)
+	at org.owasp.webgoat.HammerHead.updateSession(HammerHead.java:445)
+	at org.owasp.webgoat.HammerHead.doPost(HammerHead.java:136)
+	at org.owasp.webgoat.HammerHead.doGet(HammerHead.java:105)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:525)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:873)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+
+Mar 02, 2014 2:41:05 PM org.apache.tomcat.util.http.Parameters processParameters
+WARNING: Parameters: Character decoding failed. Parameter skipped.
+java.io.CharConversionException: isHexDigit
+	at org.apache.tomcat.util.buf.UDecoder.convert(UDecoder.java:87)
+	at org.apache.tomcat.util.buf.UDecoder.convert(UDecoder.java:48)
+	at org.apache.tomcat.util.http.Parameters.urlDecode(Parameters.java:411)
+	at org.apache.tomcat.util.http.Parameters.processParameters(Parameters.java:393)
+	at org.apache.tomcat.util.http.Parameters.processParameters(Parameters.java:344)
+	at org.apache.catalina.connector.Request.parseParameters(Request.java:2401)
+	at org.apache.catalina.connector.Request.getParameterValues(Request.java:1064)
+	at org.apache.catalina.connector.RequestFacade.getParameterValues(RequestFacade.java:394)
+	at org.owasp.webgoat.session.ParameterParser.getRawParameter(ParameterParser.java:615)
+	at org.owasp.webgoat.session.ParameterParser.getRawParameter(ParameterParser.java:597)
+	at org.owasp.webgoat.session.WebSession.update(WebSession.java:852)
+	at org.owasp.webgoat.HammerHead.updateSession(HammerHead.java:445)
+	at org.owasp.webgoat.HammerHead.doPost(HammerHead.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:525)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:873)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+

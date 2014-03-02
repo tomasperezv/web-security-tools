@@ -14,3 +14,11 @@ Mar 02, 2014 12:15:11 PM org.apache.catalina.core.ApplicationContext log
 INFO: org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
 Mar 02, 2014 12:20:00 PM org.apache.catalina.core.ApplicationContext log
 INFO: org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+Mar 02, 2014 1:51:39 PM org.apache.catalina.core.ApplicationContext log
+INFO: org.apache.webapp.balancer.BalancerFilter: doFilter(): redirecting request for http://127.0.0.1/balancer/ to http://jakarta.apache.org
+Mar 02, 2014 1:59:28 PM org.apache.catalina.core.ApplicationContext log
+INFO: org.apache.webapp.balancer.BalancerFilter: doFilter(): redirecting request for http://localhost/balancer/ to http://jakarta.apache.org
+Mar 02, 2014 2:07:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: org.apache.webapp.balancer.BalancerFilter: doFilter(): redirecting request for http://localhost/balancer/ to http://jakarta.apache.org
+Mar 02, 2014 2:38:55 PM org.apache.catalina.core.ApplicationContext log
+INFO: org.apache.webapp.balancer.BalancerFilter: doFilter(): redirecting request for http://localhost/balancer/ to http://jakarta.apache.org
