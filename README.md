@@ -104,12 +104,16 @@ http://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users
 Web application security 101
 http://www.applicure.com/downloads/documentsV4.20/Web_Application_Security_101.pdf
 
-Other Tools and libraries
+####Other Tools and libraries####
 
 https://github.com/koto/mosquito
+
 https://github.com/koto/xsschef
-https://github.com/koto/xsschef
+
 https://github.com/laruence/php-taint
+
 https://github.com/padraic/xss/tree/master/examples
+
 https://code.google.com/p/ratproxy/
+
 https://code.google.com/p/skipfish/
