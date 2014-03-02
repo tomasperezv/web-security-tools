@@ -26,12 +26,12 @@ Clone the repository and initialize the submodules
 git clone git@github.com:tomasperezv/web-security-tools.git
 git submodule update --init
 
-#For running web-goat is required java
+# For running web-goat is required java
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java7-installer
 
-#Apparently webscarab doesn't work with openjdk
+# For running web-goat is required java
 # sudo apt-get install openjdk-7-jre-headless
 # so switch in case is needed
 sudo update-alternatives --config java
