@@ -12,6 +12,10 @@ Reinventing the wheel when it comes to developing security controls for every we
 Deliberately insecure J2EE web application designed to teach web application security concepts
 https://github.com/WebGoat/WebGoat
 
+#####Arachni#####
+Web Application Security Scanner Framework
+https://github.com/Arachni/arachni
+
 #####php-taint#####
 Taint is a PHP extension, used for detecting XSS codes
 
@@ -28,11 +32,6 @@ Clone the repository and initialize the submodules
 # Initialize the repository
 git clone git@github.com:tomasperezv/web-security-tools.git
 git submodule update --init
-
-# For running web-goat is required java
-sudo add-apt-repository ppa:webupd8team/java
-sudo apt-get update
-sudo apt-get install oracle-java7-installer
 
 # php-taint requires php and pear
 sudo apt-get install php5-cli php5-dev php-pear

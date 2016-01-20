@@ -7,3 +7,6 @@
 [submodule "w3af"]
 	path = w3af
 	url = https://github.com/andresriancho/w3af.git
+[submodule "arachni"]
+	path = arachni
+	url = https://github.com/Arachni/arachni.git
